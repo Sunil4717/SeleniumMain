@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-14T14:23:23 IST" name="Surefire suite" finished-at="2025-12-14T14:26:38 IST" duration-ms="195284">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:seleniumFramework.tests.ErrorValidationsTest@327b636c]" name="LoginErrorValidation" class="seleniumFramework.tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:seleniumFramework.tests.SubmitOrderTest@3745e5c6]" name="submitOrder" class="seleniumFramework.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@2aa5fe93]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-12-14T14:23:23 IST" name="Surefire test" finished-at="2025-12-14T14:26:38 IST" duration-ms="195284">
+      <class name="seleniumFramework.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumFramework.tests.SubmitOrderTest@3745e5c6]" started-at="2025-12-14T14:25:10 IST" name="launchApplication" finished-at="2025-12-14T14:25:14 IST" duration-ms="4057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:seleniumFramework.tests.SubmitOrderTest@3745e5c6]" started-at="2025-12-14T14:25:14 IST" name="submitOrder" data-provider="getData" finished-at="2025-12-14T14:25:55 IST" duration-ms="41009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Sunil@123, product=ZARA COAT 3, email=sunilchat9@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumFramework.tests.SubmitOrderTest@3745e5c6]" started-at="2025-12-14T14:25:55 IST" name="tearDown" finished-at="2025-12-14T14:25:55 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumFramework.tests.SubmitOrderTest@3745e5c6]" started-at="2025-12-14T14:25:55 IST" name="launchApplication" finished-at="2025-12-14T14:25:57 IST" duration-ms="1565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:seleniumFramework.tests.SubmitOrderTest@3745e5c6]" started-at="2025-12-14T14:25:57 IST" name="submitOrder" data-provider="getData" finished-at="2025-12-14T14:26:36 IST" duration-ms="38974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=AnilMathur123, product=ADIDAS ORIGINAL, email=anilmathur@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumFramework.tests.SubmitOrderTest@3745e5c6]" started-at="2025-12-14T14:26:36 IST" name="tearDown" finished-at="2025-12-14T14:26:36 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumFramework.tests.SubmitOrderTest@3745e5c6]" started-at="2025-12-14T14:26:36 IST" name="launchApplication" finished-at="2025-12-14T14:26:37 IST" duration-ms="1644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:seleniumFramework.tests.SubmitOrderTest@3745e5c6]" started-at="2025-12-14T14:26:37 IST" name="OrderHistoryTest" finished-at="2025-12-14T14:26:38 IST" depends-on-methods="seleniumFramework.tests.SubmitOrderTest.submitOrder" duration-ms="837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumFramework.tests.SubmitOrderTest@3745e5c6]" started-at="2025-12-14T14:26:38 IST" name="tearDown" finished-at="2025-12-14T14:26:38 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumFramework.tests.SubmitOrderTest -->
+      <class name="seleniumFramework.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumFramework.tests.ErrorValidationsTest@327b636c]" started-at="2025-12-14T14:24:57 IST" name="launchApplication" finished-at="2025-12-14T14:25:00 IST" duration-ms="3519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:seleniumFramework.tests.ErrorValidationsTest@327b636c]" started-at="2025-12-14T14:25:00 IST" name="LoginErrorValidation" finished-at="2025-12-14T14:25:01 IST" duration-ms="1024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumFramework.tests.ErrorValidationsTest@327b636c]" started-at="2025-12-14T14:25:01 IST" name="tearDown" finished-at="2025-12-14T14:25:02 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumFramework.tests.ErrorValidationsTest@327b636c]" started-at="2025-12-14T14:25:02 IST" name="launchApplication" finished-at="2025-12-14T14:25:03 IST" duration-ms="1635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:seleniumFramework.tests.ErrorValidationsTest@327b636c]" started-at="2025-12-14T14:25:03 IST" name="ProductErrorValidation" finished-at="2025-12-14T14:25:10 IST" duration-ms="6449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumFramework.tests.ErrorValidationsTest@327b636c]" started-at="2025-12-14T14:25:10 IST" name="tearDown" finished-at="2025-12-14T14:25:10 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumFramework.tests.ErrorValidationsTest -->
+      <class name="cucumber.TestNGTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.TestNGTestRunner@2aa5fe93]" started-at="2025-12-14T14:23:23 IST" name="setUpClass" finished-at="2025-12-14T14:23:24 IST" duration-ms="600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3d98729a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@2aa5fe93]" started-at="2025-12-14T14:23:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-14T14:24:57 IST" duration-ms="93290" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive Test of Submitting the order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase the order from Ecommerce Website"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for seleniumFramework.pageobjects.CheckoutPage$$Lambda/0x000001a62c3f5780@3f63a513 (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LENOVO-2U7CL21', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.42 (24bdc8c48a0c..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53337}, goog:processID: 26980, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53337/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 60efbc1dce71ed5a3d183d338b8d93a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for seleniumFramework.pageobjects.CheckoutPage$$Lambda/0x000001a62c3f5780@3f63a513 (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LENOVO-2U7CL21', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.42 (24bdc8c48a0c..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53337}, goog:processID: 26980, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53337/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 60efbc1dce71ed5a3d183d338b8d93a1
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at seleniumFramework.pageobjects.CheckoutPage.selectCountry(CheckoutPage.java:63)
+at seleniumFramework.stepDefinitions.StepDefinitionImpl.checkout_submit_order(StepDefinitionImpl.java:54)
+at ✽.Checkout ZARA COAT 3 and submit the order(file:///C:/Software/SeleniumFrameworkDesign/src/test/java/cucumber/SubmitOrder.feature:14)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.TestNGTestRunner@2aa5fe93]" started-at="2025-12-14T14:24:57 IST" name="tearDownClass" finished-at="2025-12-14T14:24:57 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumber.TestNGTestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
