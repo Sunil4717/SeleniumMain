@@ -1,13 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 195.901 s <<< FAILURE! - in TestSuite
-runScenario(cucumber.TestNGTestRunner)  Time elapsed: 93.302 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for seleniumFramework.pageobjects.CheckoutPage$$Lambda/0x000001a62c3f5780@3f63a513 (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'LENOVO-2U7CL21', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.42 (24bdc8c48a0c..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53337}, goog:processID: 26980, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53337/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 60efbc1dce71ed5a3d183d338b8d93a1
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 88.42 s -- in TestSuite

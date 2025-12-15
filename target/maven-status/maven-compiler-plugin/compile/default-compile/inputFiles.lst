@@ -1,8 +1,8 @@
-C:\Software\SeleniumFrameworkDesign\src\main\java\seleniumFramework\pageobjects\CartPage.java
-C:\Software\SeleniumFrameworkDesign\src\main\java\seleniumFramework\pageobjects\ConfirmationPage.java
-C:\Software\SeleniumFrameworkDesign\src\main\java\seleniumFramework\pageobjects\CheckoutPage.java
-C:\Software\SeleniumFrameworkDesign\src\main\java\seleniumFramework\pageobjects\LandingPage.java
-C:\Software\SeleniumFrameworkDesign\src\main\java\seleniumFramework\resources\ExtentReporterNG.java
-C:\Software\SeleniumFrameworkDesign\src\main\java\seleniumFramework\AbstractComponents\AbstractComponent.java
-C:\Software\SeleniumFrameworkDesign\src\main\java\seleniumFramework\pageobjects\ProductCatalogue.java
-C:\Software\SeleniumFrameworkDesign\src\main\java\seleniumFramework\pageobjects\OrderPage.java
+C:\Software\cicd\SeleniumFrameworkDesign\src\main\java\seleniumFramework\pageobjects\LandingPage.java
+C:\Software\cicd\SeleniumFrameworkDesign\src\main\java\seleniumFramework\pageobjects\ConfirmationPage.java
+C:\Software\cicd\SeleniumFrameworkDesign\src\main\java\seleniumFramework\resources\ExtentReporterNG.java
+C:\Software\cicd\SeleniumFrameworkDesign\src\main\java\seleniumFramework\pageobjects\CheckoutPage.java
+C:\Software\cicd\SeleniumFrameworkDesign\src\main\java\seleniumFramework\pageobjects\CartPage.java
+C:\Software\cicd\SeleniumFrameworkDesign\src\main\java\seleniumFramework\pageobjects\OrderPage.java
+C:\Software\cicd\SeleniumFrameworkDesign\src\main\java\seleniumFramework\AbstractComponents\AbstractComponent.java
+C:\Software\cicd\SeleniumFrameworkDesign\src\main\java\seleniumFramework\pageobjects\ProductCatalogue.java
